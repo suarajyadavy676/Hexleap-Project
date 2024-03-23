@@ -20,7 +20,7 @@ function App() {
   const collections = [
     {
       id: 1,
-      path: "/public/img6.jpg",
+      path: "/public/img6.png",
       name: "Las Vegas Aviators",
       btn: "Take Flight Collection",
     },
