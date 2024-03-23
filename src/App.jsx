@@ -1,4 +1,4 @@
-import sports from "./data/sports.json";
+import sports from "../sports.json";
 import SportsCard from "./components/SportsCard";
 import Collection from "./components/Collection";
 import { MdOutlineNavigateNext } from "react-icons/md";
@@ -11,7 +11,7 @@ function App() {
   const sportsData = sports.data;
   // console.log(sportsData)
   let adData = {
-    path: "./src/assets/img5.jpg",
+    path: "../public/img5.jpg",
     name: "Advertisement title",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -20,19 +20,19 @@ function App() {
   const collections = [
     {
       id: 1,
-      path: "../src/assets/img6.jpg",
+      path: "../public/img6.jpg",
       name: "Las Vegas Aviators",
       btn: "Take Flight Collection",
     },
     {
       id: 2,
-      path: "../src/assets/img7.jpg",
+      path: "../public/img7.jpg",
       name: "Sacramento River Cats",
       btn: "Orange Collection",
     },
     {
       id: 3,
-      path: "../src/assets/img6.jpg",
+      path: "../public/img6.jpg",
       name: "Las Vegas Aviators",
       btn: "Take Flight Collection",
     },

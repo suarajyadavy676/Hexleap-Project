@@ -3,7 +3,7 @@
   "data":[
     {
       "id":1,
-      "path":"./src/assets/img1.jpg",
+      "path":"./public/img1.jpg",
       "name":"Sacramento River Cats",
       "events":48,
       "sport":"Baseball"
@@ -11,7 +11,7 @@
     ,
     {
       "id":2,
-      "path":"./src/assets/img2.jpg",
+      "path":"./public/img2.jpg",
       "name":"Las Vegas Aviators",
       "events":48,
       "sport":"Baseball"
@@ -19,7 +19,7 @@
     ,
     {
       "id":3,
-      "path":"./src/assets/img3.jpg",
+      "path":"./public/img3.jpg",
       "name":"new jersey devils",
       "events":25,
       "sport":"Ice Hockey"
@@ -27,7 +27,7 @@
     ,
     {
       "id":4,
-      "path":"./src/assets/img4.jpg",
+      "path":"./public/img4.jpg",
       "name":"Las Vegas Aviators",
       "events":28,
       "sport":"Baseball"
