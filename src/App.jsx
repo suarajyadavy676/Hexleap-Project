@@ -47,15 +47,17 @@ function App() {
           </select>
         </div>
 
-        <h1 className={`w-5/6 mx-auto font-bold text-2xl my-8 underline-offset-4 decoration-blue-600 ${bgc=='bg-black'? 'text-white':'text-black' }`}>
+        <h1 className={`w-[95%] mx-auto font-bold text-2xl my-8 underline-offset-4 decoration-blue-600 ${bgc=='bg-black'? 'text-white':'text-black' }`}>
           Sports
         </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 w-5/6 mx-auto">
+        
+        {/* sports cart */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5 w-[95%] mx-auto">
           {sportsData.map((data) => (
             <SportsCard data={data} key={data.id} />
           ))}
 
-          <div className="shadow-xl mx-auto text-center bg-slate-300">
+          <div className="shadow-xl mx-auto text-center bg-slate-300 w-[230px]">
             <div className="relative">
               <button className="bg-black text-white p-2 absolute right-3">
                 {adData.ad}
@@ -82,11 +84,12 @@ function App() {
           experience. Grab yours today!
         </p>
 
+        {/* collections */}
         <div className="relative">
           <button className="absolute text-4xl top-[50%] sm:ml-14 text-blue-600 border-blue-600 border-2 py-2 px-1">
             <GrFormPrevious />
           </button>
-          <div className="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-6">
+          <div className="w-[70%] mx-auto grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 mt-6">
             {collections.map((data) => (
               <Collection {...data} key={data.id} />
             ))}

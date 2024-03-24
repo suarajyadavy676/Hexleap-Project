@@ -2,7 +2,7 @@ function SportsCard({data}) {
   // console.log(data)
   const {path,name,events,sport} = data
   return (
-    <div className="shadow-xl mx-auto text-center bg-slate-300">
+    <div className="shadow-xl mx-auto text-center bg-slate-300 w-[230px]">
       <img src={path} alt="image" className="my-2 h-72 mx-auto w-90" />
       <h1 className="font-bold">{name}</h1>
       <div className="flex shadow-lg bg-slate-100 w-6/7 mx-auto my-2 justify-between p-2">
