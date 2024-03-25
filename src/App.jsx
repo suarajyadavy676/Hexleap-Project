@@ -1,6 +1,7 @@
 import sports from "../sports.json";
 import SportsCard from "./components/SportsCard";
 import Collection from "./components/Collection";
+import Carousels from "./components/Carousels";
 import { MdOutlineNavigateNext } from "react-icons/md";
 import { GrFormPrevious } from "react-icons/gr";
 import { useContext} from "react";
@@ -85,7 +86,7 @@ function App() {
         </p>
 
         {/* collections */}
-        <div className="relative">
+        <div className="relative hidden sm:block">
           <button className="absolute text-4xl top-[50%] sm:ml-14 text-blue-600 border-blue-600 border-2 py-2 px-1">
             <GrFormPrevious />
           </button>
@@ -99,7 +100,7 @@ function App() {
           </button>
         </div>
 
-        {/* <Carousels /> */}
+        <Carousels />
       </div>
     </>
   );
